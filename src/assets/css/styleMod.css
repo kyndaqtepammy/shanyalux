@@ -1,3 +1,7 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
 .footerWrapper{
    background-color: #333; 
    color: #FFF;
@@ -41,7 +45,7 @@
     margin: 3%;
   }
   .purpleButton {
-    background-color: #8B7BA0;
+    background-color: #F7717D;
     color: white;
     opacity:100%;
     border: none;

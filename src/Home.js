@@ -31,7 +31,7 @@ const Home = (props) => {
      <Jumbotron/>
      <Styles>
       <Container>
-          <h1>Our Bus Routes</h1>
+          <h1  style={{marginTop: "15%"}}>Our Bus Routes</h1>
           <Row>
             <Col>
               <CardsRoutes route={"Gaborone to Johanesburg"}/>
@@ -43,7 +43,7 @@ const Home = (props) => {
         </Container>
 
         <Container>
-          <h1>Our Services</h1>
+          <h1  style={{marginTop: "15%"}}>Our Services</h1>
           <Row>
             <Col>
               <Cards subtitle = {sleeplinerText}  title = {sleeplinerTitle} imagesrc={card1}/>

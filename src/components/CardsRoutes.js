@@ -8,7 +8,7 @@ import { Card, Button } from 'react-bootstrap';
 const CardsRoutes = (props) => {
   return(
     <div className="pageWrapper">
-        <Card>
+        <Card style={{margin:"auto", textAlign: "center"}}>
             <Card.Body>
                 <Card.Title>{props.route}</Card.Title>
                 <Button className="purpleButton">Book Now</Button>

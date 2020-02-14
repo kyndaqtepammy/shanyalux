@@ -4,11 +4,20 @@ import styled from 'styled-components';
 
 const Styles = styled.div`
     .navbar {
-        background-color: #222;
+        background-color: #390040;
+        padding: 1.5rem;
+    }
+
+    nav li {
+       display: inline-block;
+       text-align:center; 
     }
 
     .navbar-brand, .navbar-nav .nav-link {
-        color: #bbb;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        text-transform: uppercase;
+        font-weight: 900;
 
         &:hover {
             color: white;

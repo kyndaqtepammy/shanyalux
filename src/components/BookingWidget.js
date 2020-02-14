@@ -14,12 +14,12 @@ const Styles = styled.div`
 `;
 
 const formContainer = {
-    margin: '40px',
+    margin: '300px 40px',
     backgroundColor: 'rgba(255, 255, 255, 1)',
     padding: "5% 10%",
     opacity: "100%",
     zIndex: "-200",
-    boxShadow:' 0 2px 4px 2px rgba(0,0,0,.2)'
+    boxShadow:' 0 2px 4px 2px rgba(0,0,0,.2)',
   };
   
 
