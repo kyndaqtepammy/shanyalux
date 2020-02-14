@@ -1,0 +1,48 @@
+.footerWrapper{
+   background-color: #333; 
+   color: #FFF;
+   bottom: 0;
+   width: 100%;
+   height: auto;
+   flex-grow: 1;
+   padding: 5% 10%;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .footerLists {
+      list-style-type: none;
+      display: inline;
+      vertical-align: middle;
+  }
+  .footerListsHeading {
+      text-transform: capitalize;
+  }
+  .copy {
+    width: 100%;
+    background-color:transparent;
+  }
+  .pageWrapper {
+    margin: 3%;
+  }
+  .purpleButton {
+    background-color: #8B7BA0;
+    color: white;
+    opacity:100%;
+    border: none;
+  }

@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+.formContainer {
+  background-color: #FFF;
+  padding: 5% 10%;
+}
