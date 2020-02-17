@@ -17,7 +17,7 @@ const Bookings = (props) => {
   return(
     
 
-<div style={{marginTop: "6%"}}>
+<div>
   <Jumbotron headline="Book Now!" 
              tagline="lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " 
              backgroundImage={backgroundImg}/>

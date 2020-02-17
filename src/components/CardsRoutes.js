@@ -11,7 +11,7 @@ const CardsRoutes = (props) => {
         <Card style={{margin:"auto", textAlign: "center"}}>
             <Card.Body>
                 <Card.Title>{props.route}</Card.Title>
-                <Button className="purpleButton">Book Now</Button>
+                <Button className="purpleButton" href={'./bookings'}>Book Now</Button>
             </Card.Body>
         </Card>
     </div>

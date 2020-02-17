@@ -14,6 +14,7 @@ const sleeplinerTitle = "LuxLiner";
 const charterTitle = "Charter Hire"
 const sleeplinerText = "Our exclusive Sleepliner Service offers passengers premium class luxury at affordable prices.";
 const charterText = "We offer a superior Charter service to international and local tour operators, corporations, and private groups.";
+const ref = '/bookings';
 
 const Styles = styled.div`
 .afterJumbo {
@@ -29,7 +30,7 @@ const Styles = styled.div`
 
 const Home = (props) => {
   return(
-    <div style={{marginTop: "6%"}} >
+    <div>
      <Jumbotron headline = "Welcome" 
                 tagline="orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
                 backgroundImage={backgroundImg}/>
@@ -53,7 +54,7 @@ const Home = (props) => {
               <Cards subtitle = {sleeplinerText}  title = {sleeplinerTitle} imagesrc={card1}/>
             </Col>
             <Col>
-              <Cards subtitle = {charterText} title = {charterTitle} imagesrc={card2} />
+              <Cards subtitle = {charterText} title = {charterTitle} imagesrc={card2}/>
             </Col>
           </Row>
         </Container>
