@@ -1,12 +1,12 @@
 import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 import styled from 'styled-components';
-import logo from '../assets/img/logo.png';
+import logo from '../assets/img/logo2.png';
 
 const Styles = styled.div`
     .navbar {
-        background-color: #390040;
-        padding: 1.5rem;
+        background-color: #fff;
+        padding: 1px;
     }
 
     nav li {
@@ -15,7 +15,7 @@ const Styles = styled.div`
     }
 
     .navbar-brand, .navbar-nav .nav-link {
-        color: #fff;
+        color: #390040;
         font-family: 'Roboto', sans-serif;
         text-transform: uppercase;
         font-weight: 900;
