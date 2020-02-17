@@ -28,7 +28,7 @@ const Styles = styled.div`
 
 export const NavigationBar = () => (
     <Styles>
-        <Navbar expand = "lg" fixed="top">
+        <Navbar expand = "lg">
             <Navbar.Brand href = "/"><img src={logo}/></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav"/>
             <Navbar.Collapse id="basic-navbar-nav"  style={{color:"white"}}>
