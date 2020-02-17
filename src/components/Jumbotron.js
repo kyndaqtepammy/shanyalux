@@ -1,12 +1,11 @@
 import React from 'react';
 import { Jumbotron as Jumbo, Container } from 'react-bootstrap';
 import styled from 'styled-components';
-import bus from '../assets/img/bus.jpg';
 import BookingWidget from './BookingWidget';
+import '../assets/css/styleMod.css';
 
 const Styles = styled.div`
     .jumbo {
-        background: url(${bus}) no-repeat fixed bottom;
         background-size: cover;
         color: #ccc;
         height: 50vh;
@@ -16,8 +15,7 @@ const Styles = styled.div`
     }
 
     .overlay {
-        background-color: #000;
-        opacity: 0.6;
+        background-color: rgba(22, 0, 30, 0.6);
         position: absolute;
         top:0;
         left: 0;
@@ -26,13 +24,13 @@ const Styles = styled.div`
         z-index: -1;
     }
 `;
-export const Jumbotron =  () => (
+export const Jumbotron =  (props) => (
     <Styles>
-        <Jumbo fluid className="jumbo">
+        <Jumbo fluid className="jumbo"  style={{ backgroundImage: `url(${props.backgroundImage})` }}>
             <div className="overlay">
-                <Container>
-                    <h1>Welcome</h1>
-                    <p>Tagline goes here for some control</p>
+                <Container style={{padding: '3%'}}>
+                    <h1 className="headline">{props.headline}</h1>
+                    <p className="headlineTag">{props.tagline}</p>
                     <BookingWidget/>
                 </Container>
             </div>

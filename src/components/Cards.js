@@ -8,7 +8,7 @@ import {Card, Button} from 'react-bootstrap';
 
 const Cards = (props) => {
   return(
-    <div className="pageWrapper" style={{padding: "30px"}}>
+    <div>
       <Card style={{ 
           width: '100%',  
           padding: "10px",

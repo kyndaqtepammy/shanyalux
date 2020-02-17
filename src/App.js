@@ -17,9 +17,9 @@ function App() {
       <NavigationBar/>
         <Router>
           <Switch>
-            <Route exact path="/" component={Home}/>
-            <Route exact path="/bookings" component={Bookings}/>
-            <Route exact path="/about" component={About}/>
+            <Route exact path="/" component={Home} activeClassName="active"/>
+            <Route exact path="/bookings" component={Bookings} activeClassName="active"/>
+            {/* <Route exact path="/about" component={About} /> */}
             <Route exact path="/contact" component={Contact}/>
             <Route exact path="/bus-hire" component={BusHire}/>
             <Route  component={ NoMatch}/>

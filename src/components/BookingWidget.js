@@ -14,7 +14,7 @@ const Styles = styled.div`
 `;
 
 const formContainer = {
-    margin: '300px 40px',
+    margin: '200px 40px',
     backgroundColor: 'rgba(255, 255, 255, 1)',
     padding: "5% 10%",
     opacity: "100%",

@@ -7,6 +7,8 @@ import card1 from './assets/img/card1.jpg';
 import card2 from './assets/img/card2.jpg';
 import Footer from './components/Footer';
 import CardsRoutes from './components/CardsRoutes';
+import backgroundImg from './assets/img/bus.jpg';
+
 
 const sleeplinerTitle = "LuxLiner";
 const charterTitle = "Charter Hire"
@@ -27,11 +29,13 @@ const Styles = styled.div`
 
 const Home = (props) => {
   return(
-    <div>
-     <Jumbotron/>
+    <div style={{marginTop: "6%"}} >
+     <Jumbotron headline = "Welcome" 
+                tagline="orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                backgroundImage={backgroundImg}/>
      <Styles>
       <Container>
-          <h1  style={{marginTop: "15%"}}>Our Bus Routes</h1>
+          <h1  style={{marginTop: "25%", textAlign:"center"}}>Our Bus Routes</h1>
           <Row>
             <Col>
               <CardsRoutes route={"Gaborone to Johanesburg"}/>
@@ -43,7 +47,7 @@ const Home = (props) => {
         </Container>
 
         <Container>
-          <h1  style={{marginTop: "15%"}}>Our Services</h1>
+          <h1  style={{margin: "15% 15%", textAlign: "center"}}>Our Services</h1>
           <Row>
             <Col>
               <Cards subtitle = {sleeplinerText}  title = {sleeplinerTitle} imagesrc={card1}/>
