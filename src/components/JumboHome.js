@@ -14,7 +14,7 @@ const Styles = styled.div`
     }
 
     .overlay {
-        background-color: rgba(22, 0, 30, 0.6);
+        background-color: rgba(22, 0, 30, 0.5);
         position: absolute;
         top:0;
         left: 0;

@@ -6,7 +6,7 @@ import card1 from './assets/img/card1.jpg';
 import card2 from './assets/img/charter.jpg';
 import Footer from './components/Footer';
 import CardsRoutes from './components/CardsRoutes';
-import backgroundImg from './assets/img/bus.jpg';
+import backgroundImg from './assets/img/bgimg.jpg';
 import {JumboHome} from './components/JumboHome';
 
 
@@ -29,8 +29,8 @@ const Styles = styled.div`
 const Home = (props) => {
   return(
     <div>
-     <JumboHome headline = "Welcome" 
-                tagline="orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+     <JumboHome headline = "Welcome to Shanyalux." 
+                tagline="Shanya Lux is a luxury transport service that provides luxury bus services to local and international travellers in Botswana, Zimbabwe and South Africa. We provide affordable, safe, dependable and efficient passenger transport services."
                 backgroundImage={backgroundImg}/>
      <Styles>
       <Container>
